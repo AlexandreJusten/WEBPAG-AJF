@@ -14,4 +14,10 @@ typeWriter(titulo);
 
 $(".Apresentação").slick({
 
+
+});
+$('a[data-slide]').click(function(e) {
+    e.preventDefault();
+    var slideno = $(this).data('slide');
+    $('.Apresentação').slick('slickGoTo', slideno - 1);
 });

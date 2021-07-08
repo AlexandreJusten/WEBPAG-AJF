@@ -44,7 +44,7 @@
     
     .banner h1 {
         color: #F9F6F6;
-        font-size: 2.5rem;
+        font-size: 1.8vw;
         font-family: "Playfair+Display";
         text-align: center;
         animation: slidein1 2.5s;
@@ -52,7 +52,7 @@
     
     .banner h2 {
         color: #F9F6F6;
-        font-size: 2.0rem;
+        font-size: 1.5vw;
         font-family: "Playfair+Display";
         text-align: center;
         animation: slidein1 2s;
@@ -81,14 +81,13 @@
     .solop {
         color: #66D1BE;
         position: sticky;
-        font-size: 1.2rem;
+        font-size: 1vw;
         font-family: "Pragati+Narrow";
         letter-spacing: 0.5em;
-        width: 1490px;
-        margin-left: 6%;
-        top: 40%;
-        left: 40px;
-        line-height: 2rem;
+        margin-left: 10%;
+        width: 70vw;
+        margin-top: 16%;
+        line-height: 1.6666666666666667vw;
         animation: opacyti 6s;
     }
     
@@ -116,73 +115,63 @@
     header {
         width: 100%;
         height: auto;
-        clear: both;
         float: left;
-        position: relative;
-        top: 0rem;
+        position: fixed;
         z-index: 55;
-        -webkit-transition: all .2s ease;
-        -moz-transition: all .2s ease;
-        -ms-transition: all .2s ease;
-        -o-transition: all .2s ease;
-        transition: all .2s ease;
-        -webkit-box-sizing: border-box;
-        -moz-box-sizing: border-box;
-        box-sizing: border-box;
         animation: opacyti 3s;
     }
     
     .inicial {
         position: absolute;
-        top: 2.3rem;
-        left: 86rem;
+        top: 1.9166666666666665vw;
+        left: 71.66666666666667vw;
         background-color: transparent;
         border: none;
         color: white;
         font-style: unset;
-        font-size: 15px;
+        font-size: 0.78125vw;
         cursor: pointer;
     }
     
     .sobre {
         position: absolute;
-        top: 2.3rem;
-        left: 100rem;
+        top: 1.9166666666666665vw;
+        left: 83.33333333333333vw;
         background-color: transparent;
         border: none;
         color: white;
         font-style: unset;
-        font-size: 15px;
+        font-size: 0.78125vw;
         cursor: pointer;
     }
     
     .contato {
         position: absolute;
-        top: 2.3rem;
-        left: 107rem;
+        top: 1.9166666666666665vw;
+        left: 89.16666666666667vw;
         background-color: transparent;
         border: none;
         color: white;
         font-style: unset;
-        font-size: 15px;
+        font-size: 0.78125vw;
         cursor: pointer;
     }
     
     .portfolio {
         position: absolute;
-        top: 2.3rem;
-        left: 93rem;
+        top: 1.9166666666666665vw;
+        left: 77.5vw;
         background-color: transparent;
         border: none;
         color: white;
         font-style: unset;
-        font-size: 15px;
+        font-size: 0.78125vw;
         cursor: pointer;
     }
     
     header button:hover {
         color: #66D1BE;
-        font-size: 1rem;
+        font-size: 0.8333333333333334vw;
     }
     
     .borda {
@@ -197,56 +186,60 @@
     }
     
     .line1 {
-        top: 0%;
+        top: 0vw;
         left: 18.4vw;
+        width: 0.5208333333333334vw;
         position: absolute;
     }
     
     .letraaside {
         position: absolute;
-        left: 2.8rem;
-        top: 12rem;
+        left: 2.3333333333333335vw;
+        top: 10vw;
         color: seashell;
         font-family: "Playfair+Display";
         font-weight: unset;
         font-style: unset;
-        font-size: 20px;
+        font-size: 1vw;
         letter-spacing: 0.2em;
     }
     
     .logo {
         position: absolute;
-        left: 8rem;
-        top: 4rem;
+        left: 6.666666666666667vw;
+        top: 3.3333333333333335vw;
+        width: 5.208333333333333vw;
     }
     
     .estudante {
         position: absolute;
-        left: 4rem;
-        top: 15.5rem;
-        margin-right: 90rem;
+        left: 3vw;
+        top: 12.916666666666666vw;
         color: seashell;
         font-family: "Playfair+Display";
         font-weight: unset;
         font-style: unset;
-        font-size: 15px;
+        font-size: 0.8vw;
         text-align: center;
+        line-height: 1.2vw;
     }
     
     .social-media {
         position: absolute;
-        bottom: 5rem;
-        width: 15%;
-        display: flex;
-        justify-content: space-evenly;
-        left: 2.69rem;
-        bottom: 61%;
+        left: 2.5vw;
+        top: 17.916666666666666vw;
+        font-weight: unset;
+        font-style: unset;
+        font-size: 0.8vw;
+        text-align: center;
+        line-height: 1.2vw;
+        letter-spacing: 0.7vw;
     }
     
     .social-media i {
         color: #555;
-        font-size: 1.5rem;
-        width: 2.5rem;
+        font-size: 1.2vw;
+        width: 2.0833333333333335vw;
     }
     
     .social-media i:hover {
@@ -258,17 +251,15 @@
     }
     
     .Apresentação {
-        position: fixed;
-        width: 1400px;
-        height: 750px;
+        position: absolute;
+        width: 72.91666666666667vw;
+        height: 39.0625vw;
         top: 16%;
         left: 22%;
         animation: opacyti 6s;
     }
     
     .first {
-        width: 1400px;
-        height: 750px;
         left: 0px;
         top: 0px;
     }
@@ -277,28 +268,52 @@
         overflow: auto;
     }
     
-    .second {
+    .portfoliopg h1 {
+        text-align: center;
+        color: rgb(255, 255, 255);
+    }
+    
+    .caixaport1 {
+        width: 200px;
+        height: 200px;
+        background-color: #212121;
+        padding: 10px 20px;
+    }
+    
+    .sobreEU {
         color: rgb(255, 255, 255);
         overflow: auto;
     }
     
-    .second h1 {
+    .sobreEU h1 {
         margin-left: 45%;
     }
     
-    .second p {
+    .sobreEU p {
         margin-left: 5%;
         margin-top: 9%;
         margin-right: 50%;
         text-align: center;
-        font-size: 1.25rem;
+        font-size: 1.0416666666666667vw;
         font-weight: 300;
         line-height: 1.7;
         letter-spacing: 0.069rem;
     }
     
-    .second img {
+    .sobreEU img {
         margin-left: 64%;
         margin-top: -37%;
         margin-right: 60%;
+        width: 15.625vw;
+    }
+    
+    .contatopg {
+        position: sticky;
+    }
+    
+    .contatopg img {
+        margin-left: 20%;
+        margin-top: 10%;
+        display: inline-block;
+        cursor: pointer;
     }
