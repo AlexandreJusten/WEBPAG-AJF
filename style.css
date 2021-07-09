@@ -271,13 +271,14 @@
     .portfoliopg h1 {
         text-align: center;
         color: rgb(255, 255, 255);
+        font-size: 1.8vw;
     }
     
     .caixaport1 {
-        width: 200px;
-        height: 200px;
+        width: 10.416666666666666vw;
+        height: 10.416666666666666vw;
         background-color: #212121;
-        padding: 10px 20px;
+        padding: 0.5208333333333334vw 1.0416666666666667vw;
     }
     
     .sobreEU {
@@ -308,12 +309,59 @@
     }
     
     .contatopg {
-        position: sticky;
+        position: absolute;
+    }
+    
+    .contatobanner {
+        padding: 1.6666666666666667vw;
+        position: absolute;
+        width: 20.3125vw;
+        height: 25.833333333333332vw;
+        top: 5vw;
+        left: 10vw;
+        background: #141419b7;
+        border-radius: 1.6666666666666667vw;
     }
     
     .contatopg img {
-        margin-left: 20%;
-        margin-top: 10%;
-        display: inline-block;
-        cursor: pointer;
+        margin-left: 32vw;
+        margin-top: 5vw;
+        position: absolute;
+        width: 5.895833333333333vw;
+    }
+    
+    .contatopg h2 {
+        margin-top: 11vw;
+        margin-left: 32.2vw;
+        position: absolute;
+        font-size: 1.5vw;
+        color: white;
+    }
+    
+    .contatopg p {
+        margin-top: 14vw;
+        margin-left: 21vw;
+        position: absolute;
+        font-size: 0.9vw;
+        color: white;
+    }
+    
+    .contatopg a {
+        margin-top: 16vw;
+        margin-left: 29.7vw;
+        position: absolute;
+        font-size: 0.9vw;
+        color: white;
+    }
+    
+    .contatopg address {
+        text-align: center;
+        margin-top: 19vw;
+        margin-right: 3.3vw;
+        color: white;
+        font-size: 0.7;
+    }
+    
+    .contatopg a:hover {
+        color: #66D1BE;
     }
